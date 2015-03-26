@@ -3,3 +3,6 @@ Viikon tehtävät aikalailla suoritettu, aikaa mennyt noin 3h, tosin olin jo aie
 
 20.3.2015
 Viikko mennyt erehdysten kautta todennäköisesti oikeaan suuntaan, käytetty aika n. 8h. Ensin koodasin itseni suohon, sitten aloitin suosiolla alusta tutkien asioita tarkemmin, ja peli lähtee muodostumaan pikkuhiljaa. Lopullisen koodin määrä vähäinen, tänne mentiin erittäin kantapään kautta. Testiä sitten seuraavalla kauniilla viikolla. Isoin työn tulos luokassa Muoto.
+
+26.3.2015
+Homma edistyy, tällä viikolla mennyt aikaa noin 5h. Hommassa ollaan oikealla polulla, ensi viikon tavoitteena ruveta kasaamaan metodeja tomimaan yhdessä, luomaan graafista käyttöliittymään. Ainakin toistaiseksi yksittäiset palaset (muoto, laskuri) pitäis olla toimintavalmiudessa ja toimia, kuten pitääkin.
