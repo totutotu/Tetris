@@ -1,5 +1,8 @@
+
 package tetris.gui;
 
-public class Paivitettava {
-    
+public interface Paivitettava {
+    void paivita();
+
+    public void lopeta();
 }
