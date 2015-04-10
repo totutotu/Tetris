@@ -1,47 +1,36 @@
 package tetris.gui;
 
+import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
-import java.awt.event.KeyListener;
-import tetris.domain.Muoto;
+import tetris.domain.Muoto.Tetrinikat;
 
-public class Nappaimistonkuuntelija implements KeyListener {
-    public Muoto muoto;
-    
-    
-    public Nappaimistonkuuntelija(Muoto muoto) {
-        this.muoto = muoto;
-    }
-    
-    @Override
-    public void keyTyped(KeyEvent ke) {
+public class Nappaimistonkuuntelija extends KeyAdapter {
+    Piirtoalusta ruudukko;
+
+    public Nappaimistonkuuntelija(Piirtoalusta ruudukko) {
+        this.ruudukko = ruudukko;
     }
 
     @Override
     public void keyPressed(KeyEvent ke) {
-        if (ke.getKeyCode() == 'p' || ke.getKeyCode() == 'P') {
-            //pause
+        
+        if(!ruudukko.getKaynnissa() || ruudukko.getPutoava().getMuoto() == Tetrinikat.Muodoton) {
+            return;
         }
         
-//        if(isPaused) {
-//            return;
-//        }
+        //taukomahdollisuus?
         
         if (ke.getKeyCode() == KeyEvent.VK_LEFT) {
-              //kokeile siirtää vasen
+            ruudukko.yritaLiikkua(ruudukko.getPutoava(), ruudukko.getPalanX() - 1, ruudukko.getPalanY());
         } else if (ke.getKeyCode() == KeyEvent.VK_RIGHT) {
-            //oikealle
+            ruudukko.yritaLiikkua(ruudukko.getPutoava(), ruudukko.getPalanX() + 1, ruudukko.getPalanY());
         } else if (ke.getKeyCode() == KeyEvent.VK_SPACE) {
-            //lattialle
+            ruudukko.yritaLiikkua(ruudukko.getPutoava().kaanna(), ruudukko.getPalanX() , ruudukko.getPalanY());
         } else if (ke.getKeyCode() == KeyEvent.VK_DOWN) {
-            //rivi alas
+            ruudukko.riviAlas();
         } else if (ke.getKeyCode() == KeyEvent.VK_UP) {
-            //käännä
+            ruudukko.yritaLiikkua(ruudukko.getPutoava(), ruudukko.getPalanX(), ruudukko.getPalanY());
         } 
     
     }
-
-    @Override
-    public void keyReleased(KeyEvent ke) {
-    }
-    
 }
