@@ -6,3 +6,8 @@ Viikko mennyt erehdysten kautta todennäköisesti oikeaan suuntaan, käytetty ai
 
 26.3.2015
 Homma edistyy, tällä viikolla mennyt aikaa noin 5h. Hommassa ollaan oikealla polulla, ensi viikon tavoitteena ruveta kasaamaan metodeja tomimaan yhdessä, luomaan graafista käyttöliittymään. Ainakin toistaiseksi yksittäiset palaset (muoto, laskuri) pitäis olla toimintavalmiudessa ja toimia, kuten pitääkin.
+
+10.4.2015
+Aikaa meni n4,5h, koodaus edistyy hyvin. Uusia testejä tehty nihkeästi, uuden luokan epätäydellisyys rajoittaa ideointia. Mutta edistyy kovaan tahtiin, ensi viikolla päästään pitkälle jännän ääreen. 
+Javadocin mukaisia kommentteja viljelty Muoto ja Piirtoalusta luokkiin, mutta en saanut html-versiota saanut generoitua, kenties ensi viikolla aukenee. 
+Luokkia on ehkä turhia, ja Piirtoalustan laajat velvollisuudet ei välttämättä ole paras vaihtoehto, ensi viikolla harkitsen refraktorointia.
