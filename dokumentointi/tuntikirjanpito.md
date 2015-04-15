@@ -11,3 +11,6 @@ Homma edistyy, tällä viikolla mennyt aikaa noin 5h. Hommassa ollaan oikealla p
 Aikaa meni n4,5h, koodaus edistyy hyvin. Uusia testejä tehty nihkeästi, uuden luokan epätäydellisyys rajoittaa ideointia. Mutta edistyy kovaan tahtiin, ensi viikolla päästään pitkälle jännän ääreen. 
 Javadocin mukaisia kommentteja viljelty Muoto ja Piirtoalusta luokkiin, mutta en saanut html-versiota saanut generoitua, kenties ensi viikolla aukenee. 
 Luokkia on ehkä turhia, ja Piirtoalustan laajat velvollisuudet ei välttämättä ole paras vaihtoehto, ensi viikolla harkitsen refraktorointia.
+
+15.4.2015
+Koodi edennyt viime metreille, homma tuntuu tomivan. Aikaa mennyt 5h.

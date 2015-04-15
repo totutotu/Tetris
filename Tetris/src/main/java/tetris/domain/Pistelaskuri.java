@@ -1,5 +1,5 @@
 
-package tetris.gui;
+package tetris.domain;
 
 public class Pistelaskuri {
     public int pisteet;

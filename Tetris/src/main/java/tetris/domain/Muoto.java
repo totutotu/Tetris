@@ -3,7 +3,6 @@ package tetris.domain;
 import java.util.Random;
 
 public class Muoto {
-    //luokan pitäisi olla valmis
 
     public enum Tetrinikat {
 
@@ -114,9 +113,11 @@ public class Muoto {
      */
     public void asetaRandomMuoto() {
         Random random = new Random();
-        int x = random.nextInt(5);
+        int x = random.nextInt(7) + 1;
         Tetrinikat[] values = Tetrinikat.values();
+
         asetaMuoto(values[x]);
+
     }
 
     /**

@@ -3,8 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package tetris.gui;
+package tetris.domain;
 
+import tetris.domain.Pistelaskuri;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
