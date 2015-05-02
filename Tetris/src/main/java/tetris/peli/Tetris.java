@@ -18,8 +18,7 @@ public class Tetris extends JFrame {
         
         setSize(200, 400);
         setTitle("Tetris");
-        setDefaultCloseOperation(EXIT_ON_CLOSE);
-    
+        setDefaultCloseOperation(EXIT_ON_CLOSE); 
     }
     
     public JLabel pisteTilanne() {
@@ -31,11 +30,6 @@ public class Tetris extends JFrame {
         Tetris peli = new Tetris();
         peli.setLocationRelativeTo(null);
         peli.setVisible(true);
-
-        
-    }
-    
-    
-    
-    
+   
+    }    
 }

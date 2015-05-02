@@ -14,3 +14,6 @@ Luokkia on ehkä turhia, ja Piirtoalustan laajat velvollisuudet ei välttämätt
 
 15.4.2015
 Koodi edennyt viime metreille, homma tuntuu tomivan. Aikaa mennyt 5h.
+
+2.5.2015
+Viimeiset dokumentaatiot tehty ja paketti kasassa, aikaa 2h.

@@ -43,7 +43,6 @@ public class Piirtoalusta extends JPanel implements ActionListener {
         koordinaatisto = new Tetrinikat[taulunLeveys * taulunKorkeus];
         addKeyListener(new Nappaimistonkuuntelija(this));
         tyhjaAlusta();
-
     }
 
     @Override
